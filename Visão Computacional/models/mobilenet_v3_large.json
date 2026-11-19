@@ -1,0 +1,28 @@
+{
+  "arch": "mobilenet_v3_large",
+  "name": "mobilenet_v3_large",
+  "classes": [
+    "sem_fissura",
+    "com_fissura"
+  ],
+  "mean": [
+    0.485,
+    0.456,
+    0.406
+  ],
+  "std": [
+    0.229,
+    0.224,
+    0.225
+  ],
+  "img_size": 224,
+  "temperature": 1.3651306629180908,
+  "thresholds": {
+    "triagem": 0.9534240365028381,
+    "f1_max": 0.5522324442863464,
+    "padrao": 0.5
+  },
+  "field_aug": false,
+  "params_M": 4.2,
+  "train_minutes": 10.45
+}
